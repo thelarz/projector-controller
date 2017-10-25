@@ -55,6 +55,14 @@ module.exports = {
     list: (cb) => {
         return listPorts(cb);
     },
+    setPort: (comm, cb) => {
+        this.currentPort = portList.filter((p) => {
+            if (p === comm) {
+                return true;
+            }
+        })[0];
+        cb();
+    },
     off: (cb) => {
         this.initPort((port) => {
             port.write(this.config["off"], function (data) {

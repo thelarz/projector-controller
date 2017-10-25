@@ -9,8 +9,10 @@ controller.config({
     off: [0x02, 0x01, 0x00, 0x00, 0x00, 0x03],
     settings: [0x00, 0x85, 0x00, 0x00, 0x01, 0x00, 0x86]  // 00h 85h 00h 00h 01h 00h 86h
 }, () => {
-    controller[command]((success) => {
-        return;
+    controller.setPort("COM3", () => {
+        controller[command]((success) => {
+            return;
+        });
     });
 });
 
