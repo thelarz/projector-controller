@@ -4,7 +4,7 @@
 
 ## Example (using default COM port)
 
-    var controller = require("./index.js");
+    var controller = require("projector-controller");
 
     controller.config({
         name: "NEC",
@@ -22,7 +22,7 @@
 
 If you have multiple COM ports defined, you can specify which port yourself in code.
 
-    var controller = require("./index.js");
+    var controller = require("projector-controller");
 
     controller.config({
         name: "NEC",
