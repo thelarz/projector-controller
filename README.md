@@ -1,6 +1,6 @@
 # projector-controller
 
-*projector-controller* is an node NPM package that allows generic controller over display Projectors that have an RS-223 serial interface and API scheme.
+*projector-controller* is an node NPM package that allows generic controller over display projectors that have an RS-223 serial interface and an API scheme.
 
 ## Example
 
@@ -17,12 +17,10 @@
         });
     });
 
-
 ## Summary
 
-Basically, you pass your particular projectors API specifications in JSON format and the projector-controller takes care of all the serial port communication.
-
+Basically, you pass your particular projector's API specifications in JSON format and the projector-controller takes care of all the serial port communication.
 
 ## Help me
 
-I welcome any and all pull requests. I specifically need help with unit testing. 
+I welcome any and all pull requests. I specifically need help with unit testing and code structure (async, callback, promises).
