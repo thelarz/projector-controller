@@ -1,6 +1,6 @@
 # projector-controller
 
-*projector-controller* is an node NPM package that allows generic controller over display projectors that have an RS-223 serial interface and an API scheme.
+*projector-controller* is a node.js NPM package that allows generic controller over display projectors that have an RS-223 serial interface and an API scheme.
 
 ## Example (using default COM port)
 
@@ -23,7 +23,7 @@
 If you have multiple COM ports defined, you can specify which port yourself in code.
 
     var controller = require("./index.js");
-    
+
     controller.config({
         name: "NEC",
         baudRate: 38400,
