@@ -22,6 +22,8 @@
 
 If you have multiple COM ports defined, you can specify which port yourself in code.
 
+    var controller = require("./index.js");
+    
     controller.config({
         name: "NEC",
         baudRate: 38400,
