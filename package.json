@@ -1,0 +1,22 @@
+{
+  "name": "projector-controller",
+  "version": "1.0.0",
+  "description": "Simple configurable and hopefully universal projector controller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thelarz/projector-controller.git"
+  },
+  "author": "McNutt Consulting, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thelarz/projector-controller/issues"
+  },
+  "homepage": "https://github.com/thelarz/projector-controller#readme",
+  "dependencies": {
+    "serialport": "^5.0.0"
+  }
+}
